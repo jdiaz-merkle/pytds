@@ -391,6 +391,7 @@ class Connection(object):
                                 18487,  # password expired
                                 18488,  # password should be changed
                                 18452,  # login from untrusted domain
+                                976,  # The target database, '%.*ls', is participating in an availability group
                         ):
                             raise
 
